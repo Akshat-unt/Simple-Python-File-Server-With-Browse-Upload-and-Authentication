@@ -1,4 +1,4 @@
-#Simple Python File Server With Browse, Upload, and Authentication
+# Simple Python File Server With Browse, Upload, and Authentication
 ### What is this?
 This is a simple file server that
 * supports file directory browse of the server
@@ -8,7 +8,7 @@ This is a simple file server that
 
 It is tested with Ubuntu 14.04, python 2.7.6
 
-Find the latest version at https://github.com/wonjohnchoi/Simple-Python-File-Server-With-Browse-Upload-and-Authentication
+Find the latest version [here](https://github.com/wonjohnchoi/Simple-Python-File-Server-With-Browse-Upload-and-Authentication)
 
 ### Why did I make this?
 Currently, I am in an environment where I am not allowed to install anything on my desktop for some security reason.
@@ -21,19 +21,19 @@ So I forked off SimpleHTTPServerWithUpload written by bones7456 to make this too
 
 I use this everyday in addition to shellinabox to have full control over my aws instance, and it's super convenient.
 
-###How To Install
-Read and edit settings.py.
+### How To Install
+* Read and edit settings.py.
 
 `sudo ./install`
 
 Once the script is completed, this file server should be registered as an upstart service.
 
-Check the file server at http://host:port/base_url
+Check the file server at `http://host:port/base_url`
 
-###How To Uninstall
+### How To Uninstall
 `sudo ./uninstall`
 
-###Credit
-This is a fork of http://li2z.cn/?s=SimpleHTTPServerWithUpload written by bones7456 (who also forked from http://www.opensource.apple.com/source/python/python-3/python/Lib/SimpleHTTPServer.py)
+### Credit
+This is a fork of [SimpleHTTPServerWithUpload](http://li2z.cn/?s=SimpleHTTPServerWithUpload) written by bones7456 who also forked from [SimpleHTTPServer.py](http://www.opensource.apple.com/source/python/python-3/python/Lib/SimpleHTTPServer.py)
 
-This fork basically adds install scripts, authentication, and some more on top of the original code that supports directory browse and file upload.
+*This fork basically adds install scripts, authentication, and some more on top of the original code that supports directory browse and file upload.
